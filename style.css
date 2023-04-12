@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2em;
+    background-color: #a9c9ff7e;
+    background-image: linear-gradient(180deg, #a9c9ff7e 0%, #ffbbec7d 100%);
+    width: 60%;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.relogio {
+    font-size: 5em;
+}
+
+#img {
+    margin-top: 50px;
+}
+
+#imagem {
+    box-shadow: 5px 5px 10px #00000077;
+}
+
+footer {
+    position: absolute;
+    bottom: -100px;
+    background-color: #a9c9ff7e;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
